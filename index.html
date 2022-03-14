@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html>
 <body>
+  <h1>Introduction</h1>
+  <p></p>
+  
+  <h1>Problem Statement</h1>
+    <p>The identification of a car can be done in several ways: the VIN number which is visible under the windshield,
+      the license plate number which is usually in the front and the back, or the style of the car such as the design
+      of the emblem, headlights, tailights and other features. Nowadays, in US there are many traffic cameras, which
+      help track down criminals when there's a need. However, if a criminal switched out the license plate to a fake one,
+      and if a witness knows a make, model, and year of a criminal's car then a viable option is to consistently scan
+      traffic camera footage and using machine learning with object detection we can narrow down the search options
+      by identifying the location by searching for a car based on make, model, and year.
+      <br>
+      <br>
+      We can apply machine learning and neural network techniques to train a model on an existing dataset to supply
+      an image input and predict which car it is based on the mentioned attributes.
+     </p>
 
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
+  <h1>Dataset for training and testing</h1>
+    <p>We will be using a dataset prepared by Jonathan Krause at Stanford, which can be found
+      <a href="https://ai.stanford.edu/~jkrause/cars/car_dataset.html">here</a>. The dataset contains
+    8,144 images for training and 8,041 for testing our model. Since the format of this dataset is not
+    exactly what we will be looking for we'll have to augment couple items. First, the labels are stored
+    in a Matlab format and they will have to be read into our Python framework that will be used. Second,
+    the dataset reader will have to read the Matlab file and process the column that identifies if an image
+    is to be used for training or testing, and split the images into these categories.
+    on the </p>
+  
+  
 </body>
 </html>
